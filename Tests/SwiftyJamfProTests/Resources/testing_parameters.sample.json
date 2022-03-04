@@ -1,0 +1,199 @@
+{
+    "baseURL": "https://jss.myorganization.com:8443",
+    "username": "",
+    "password": "",
+    "classicDevice": {
+        "general": {
+          "id": 1,
+          "display_name": "Tinas iPad",
+          "device_name": "Tinas iPad",
+          "name": "Tinas iPad",
+          "asset_tag": "string",
+          "last_inventory_update": "2017-07-07 18:37:04",
+          "last_inventory_update_epoch": 1499470624555,
+          "last_inventory_update_utc": "2017-07-07T18:37:04.555-0500",
+          "capacity": 12159,
+          "capacity_mb": 12159,
+          "available": 11487,
+          "available_mb": 11487,
+          "percentage_used": 5,
+          "os_type": "iOS",
+          "os_version": "10.3.2",
+          "os_build": "14F89",
+          "serial_number": "C02Q7KHTGFWF",
+          "udid": "270aae10800b6e61a2ee2bbc285eb967050b5984",
+          "initial_entry_date_epoch": 1499470624555,
+          "initial_entry_date_utc": "2017-07-07T18:37:04.555-0500",
+          "phone_number": "123-555-6789",
+          "ip_address": "192.0.0.1",
+          "wifi_mac_address": "E0:AC:CB:97:36:G4",
+          "bluetooth_mac_address": "E0:AC:CB:97:36:G6",
+          "modem_firmware": "2.61.00",
+          "model": "iPhone 6S",
+          "model_identifier": "iPhone8,1",
+          "model_number": "MKRY2LL",
+          "model_display": "iPhone 6S",
+          "device_ownership_level": "Institutional",
+          "last_enrollment_epoch": 1499470624555,
+          "last_enrollment_utc": "2017-07-07T18:37:04.555-0500",
+          "managed": true,
+          "supervised": true,
+          "exchange_activesync_device_identifier": "TUCLLFJHPL779ACL9DCJQFN39F",
+          "shared": "string",
+          "tethered": "string",
+          "battery_level": 95,
+          "ble_capable": true,
+          "device_locator_service_enabled": true,
+          "do_not_disturb_enabled": true,
+          "cloud_backup_enabled": true,
+          "last_cloud_backup_date_epoch": 1499470624555,
+          "last_cloud_backup_date_utc": "2017-07-07T18:37:04.555-0500",
+          "location_services_enabled": true,
+          "itunes_store_account_is_active": true,
+          "last_backup_time_epoch": 1499470624555,
+          "last_backup_time_utc": "2017-07-07T18:37:04.555-0500"
+        },
+        "location": {
+          "username": "JBetty",
+          "realname": "Betty Jackson",
+          "real_name": "Betty Jackson",
+          "email_address": "jbetty@company.com",
+          "position": "Systems Engineer",
+          "phone": "123-555-6789",
+          "phone_number": "123-555-6789",
+          "department": "Sales Staff",
+          "building": "New York Office",
+          "room": "1159"
+        },
+        "purchasing": {
+          "is_purchased": true,
+          "is_leased": true,
+          "po_number": "string",
+          "vendor": "string",
+          "applecare_id": "string",
+          "purchase_price": "string",
+          "purchasing_account": "string",
+          "po_date": "string",
+          "po_date_epoch": 0,
+          "po_date_utc": "string",
+          "warranty_expires": "string",
+          "warranty_expires_epoch": 0,
+          "warranty_expires_utc": "string",
+          "lease_expires": "string",
+          "lease_expires_epoch": 0,
+          "lease_expires_utc": "string",
+          "life_expectancy": 0,
+          "purchasing_contact": "string"
+        },
+        "applications": [
+          {
+            "application_name": "Apple Store",
+            "application_version": "5.14.0.761",
+            "application_short_version": "514000",
+            "application_status": "Unmanaged",
+            "identifier": "com.apple.store.Jolly"
+          },
+          {
+            "application_name": "Self Service",
+            "application_version": "2021040101",
+            "application_short_version": "10.10.6",
+            "application_status": "Managed",
+            "identifier": "com.jamfsoftware.selfservice"
+          }
+        ],
+        "security_object": {
+          "data_protection": true,
+          "block_level_encryption_capable": true,
+          "file_level_encryption_capable": true,
+          "passcode_present": true,
+          "passcode_compliant": true,
+          "passcode_compliant_with_profile": true,
+          "passcode_lock_grace_period_enforced": "Not Available",
+          "hardware_encryption": "string",
+          "activation_lock_enabled": true,
+          "jailbreak_detected": "Normal",
+          "lost_mode_enabled": true,
+          "lost_mode_enforced": true,
+          "lost_mode_enable_issued_epoch": 1517598768512,
+          "lost_mode_enable_issued_utc": "2018-02-02T13:12:48.512-0600",
+          "lost_mode_message": "Please return to Company",
+          "lost_mode_phone": "555-555-5555",
+          "lost_mode_footnote": "string",
+          "lost_location_epoch": 1517598680459,
+          "lost_location_utc": "2018-02-02T13:11:20.459-0600",
+          "lost_location_latitude": 44.81436821,
+          "lost_location_longitude": -91.502672,
+          "lost_location_altitude": 242.88067627,
+          "lost_location_speed": -1,
+          "lost_location_course": -1,
+          "lost_location_horizontal_accuracy": 65,
+          "lost_location_vertical_accuracy": 10
+        },
+        "network": {
+          "home_carrier_network": "Verizon",
+          "cellular_technology": "Unknown",
+          "voice_roaming_enabled": "Yes",
+          "imei": "35 200706 056227 1",
+          "iccid": "8914 8000 0010 0254 6259",
+          "current_carrier_network": "string",
+          "carrier_settings_version": 20,
+          "current_mobile_country_code": 311,
+          "current_mobile_network_code": 480,
+          "home_mobile_country_code": 311,
+          "home_mobile_network_code": 480,
+          "data_roaming_enabled": true,
+          "phone_number": 5555555555
+        },
+        "certificates": [
+          {
+            "common_name": "JSS Built-In Signing Certificate",
+            "identity": true,
+            "expires_utc": "2026-05-23T20:29:09.000-0400",
+            "expires_epoch": "1779582549000"
+          },
+          {
+            "common_name": "leader: JSS Built-In Signing Certificate",
+            "identity": false,
+            "expires_utc": "2026-04-04T08:09:16.000-0400",
+            "expires_epoch": "1775304556000"
+          },
+          {
+            "common_name": "member: JSS Built-In Signing Certificate",
+            "identity": true,
+            "expires_utc": "2026-04-04T08:09:15.000-0400",
+            "expires_epoch": "1775304555000"
+          }
+        ],
+        "configuration_profiles": [
+          {
+            "display_name": "WiFi",
+            "version": 1,
+            "identifier": "279889AF-1564-4480-A61D-860DF5EFDF26",
+            "uuid": "279889AF-1564-4480-A61D-860DF5EFDF26"
+          }
+        ],
+        "provisioning_profiles": [
+          {
+            "display_name": "In-House App Provisioning Profile",
+            "expiration_date": "2018-01-29",
+            "expiration_date_epoch": 0,
+            "expiration_date_utc": "2018-01-29T14:18:02.000-0600",
+            "uuid": "279889AF-1564-4480-A61D-860DF5EFDF26"
+          }
+        ],
+        "mobile_device_groups": [
+          {
+            "id": 1,
+            "name": "String"
+          }
+        ],
+        "extension_attributes": [
+          {
+            "id": 1,
+            "name": "Asset Selector",
+            "type": "String",
+            "value": "Sample Value"
+          }
+        ]
+    }
+}
