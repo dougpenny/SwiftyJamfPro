@@ -22,6 +22,9 @@
 //    SOFTWARE.
 
 import Foundation
+#if canImport(FoundationNetworking)
+import FoundationNetworking
+#endif
 
 public class SwiftyJamfPro {
     let baseURL: URL?
@@ -114,3 +117,23 @@ public class SwiftyJamfPro {
         return request
     }
 }
+
+#if canImport(FoundationNetworking)
+// All async APIs aren't available yet in FoundationNetworking; code was pulled from
+// this thread: https://forums.swift.org/t/how-to-use-async-await-w-docker/49591
+extension URLSession {
+    func data(for request: URLRequest, delegate: URLSessionTaskDelegate? = nil) async throws -> (Data, URLResponse) {
+        return try await withUnsafeThrowingContinuation { continuation in
+            let sessionDataTask = self.dataTask(with: request) { (data: Data?, response: URLResponse?, error: Error?) in
+                switch (data, response, error) {
+                case (nil, nil, let error?): continuation.resume(throwing: error)
+                case (let data?, let response?, nil): continuation.resume(returning: (data, response))
+                default: fatalError("The data and response should be non-nil if there's no error!")
+                }
+            }
+
+            sessionDataTask.resume()
+        }
+    }
+}
+#endif
