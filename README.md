@@ -51,9 +51,9 @@ if let device = try await client.classicDeviceForID(deviceID) {
 ```
 
 ## Contributing
-If you have a feature or idea you would like to see added to SwiftyJamfPro, please [create an issue](https://github.com/dougonecent/SwiftyJamfPro/issues/new) explaining your idea with as much detail as possible.
+If you have a feature or idea you would like to see added to SwiftyJamfPro, please [create an issue](https://github.com/dougpenny/SwiftyJamfPro/issues/new) explaining your idea with as much detail as possible.
 
-If you come across a bug, please [create an issue](https://github.com/dougonecent/SwiftyJamfPro/issues/new) explaining the bug with as much detail as possible.
+If you come across a bug, please [create an issue](https://github.com/dougpenny/SwiftyJamfPro/issues/new) explaining the bug with as much detail as possible.
 
 The [Jamf Pro API](https://developer.jamf.com/jamf-pro/reference/classic-api) provides access to a lot of information and, unfortunately, we don't have time to research and implement every endpoint. We've tried to make it as easy as possible for you to extend the library and contribute your changes. The basics for adding a new endpoint are:
 
