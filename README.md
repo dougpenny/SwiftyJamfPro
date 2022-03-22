@@ -1,7 +1,8 @@
 ![SwiftyJamfPro](Images/swiftyjamfpro.png)
 
 [![MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fdougpenny%2FSwiftyJamfPro%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/dougpenny/SwiftyJamfPro)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fdougpenny%2FSwiftyJamfPro%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/dougpenny/SwiftyJamfPro)
 
 SwiftyJamfPro is a pure Swift client for the Jamf Pro API. The goal is to simplify the process of communicating with the [Jamf Pro API](https://www.jamf.com/products/jamf-pro/) by handling authentication and decoding, allowing you to focus on using the data, not retrieving it.
 
